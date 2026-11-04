@@ -1,0 +1,191 @@
+{
+  "categories": [
+    { "id": "clothing",    "name": "Clothing",               "emoji": "👕", "color": "#cfe8e3" },
+    { "id": "cosmetics",   "name": "Cosmetics",              "emoji": "🧴", "color": "#f6d9e0" },
+    { "id": "food",        "name": "Packaged food",          "emoji": "🍫", "color": "#f3e2c3" },
+    { "id": "electronics", "name": "Home and electronics",   "emoji": "🔌", "color": "#d6dcf3" },
+    { "id": "wellness",    "name": "Wellness and first aid", "emoji": "🩹", "color": "#dcedc8" }
+  ],
+  "products": [
+    {
+      "id": "tee-001",
+      "category": "clothing",
+      "name": "Classic tee",
+      "description": "Soft cotton t-shirt, printed on demand.",
+      "price_usd": 29.00,
+      "shipping_usd": 5.00,
+      "options": { "Size": ["S", "M", "L", "XL"], "Color": ["Black", "White"] },
+      "emoji": "👕",
+      "images": [],
+      "available": true
+    },
+    {
+      "id": "hood-001",
+      "category": "clothing",
+      "name": "Pullover hoodie",
+      "description": "Midweight fleece hoodie, printed on demand.",
+      "price_usd": 49.00,
+      "shipping_usd": 7.00,
+      "options": { "Size": ["M", "L", "XL"], "Color": ["Black", "Grey"] },
+      "emoji": "🧥",
+      "images": [],
+      "available": true
+    },
+    {
+      "id": "cap-001",
+      "category": "clothing",
+      "name": "Dad cap",
+      "description": "Adjustable cotton cap with embroidered logo.",
+      "price_usd": 24.00,
+      "shipping_usd": 5.00,
+      "options": { "Color": ["Navy", "Black"] },
+      "emoji": "🧢",
+      "images": [],
+      "available": true
+    },
+    {
+      "id": "cos-001",
+      "category": "cosmetics",
+      "name": "Daily moisturizer",
+      "description": "Fragrance-free face cream, 50 ml.",
+      "price_usd": 18.00,
+      "shipping_usd": 5.00,
+      "options": {},
+      "emoji": "🧴",
+      "images": [],
+      "available": true
+    },
+    {
+      "id": "cos-002",
+      "category": "cosmetics",
+      "name": "Lip balm trio",
+      "description": "Three SPF lip balms, sealed.",
+      "price_usd": 12.00,
+      "shipping_usd": 4.00,
+      "options": {},
+      "emoji": "💄",
+      "images": [],
+      "available": true
+    },
+    {
+      "id": "cos-003",
+      "category": "cosmetics",
+      "name": "Sunscreen SPF 50",
+      "description": "Lightweight face sunscreen, 60 ml.",
+      "price_usd": 19.00,
+      "shipping_usd": 5.00,
+      "options": {},
+      "emoji": "☀️",
+      "images": [],
+      "available": false
+    },
+    {
+      "id": "food-001",
+      "category": "food",
+      "name": "Mixed nuts box",
+      "description": "Roasted, salted, sealed 900 g box.",
+      "price_usd": 21.00,
+      "shipping_usd": 6.00,
+      "options": {},
+      "emoji": "🥜",
+      "images": [],
+      "available": true
+    },
+    {
+      "id": "food-002",
+      "category": "food",
+      "name": "Dark chocolate set",
+      "description": "Six 100 g bars, shelf-stable.",
+      "price_usd": 23.00,
+      "shipping_usd": 6.00,
+      "options": {},
+      "emoji": "🍫",
+      "images": [],
+      "available": true
+    },
+    {
+      "id": "food-003",
+      "category": "food",
+      "name": "Tea sampler",
+      "description": "40 assorted tea bags.",
+      "price_usd": 16.00,
+      "shipping_usd": 5.00,
+      "options": {},
+      "emoji": "🍵",
+      "images": [],
+      "available": true
+    },
+    {
+      "id": "home-001",
+      "category": "electronics",
+      "name": "Braided USB-C cable",
+      "description": "2 m fast-charge cable, two-pack.",
+      "price_usd": 15.00,
+      "shipping_usd": 4.00,
+      "options": {},
+      "emoji": "🔌",
+      "images": [],
+      "available": true
+    },
+    {
+      "id": "home-002",
+      "category": "electronics",
+      "name": "65 W wall charger",
+      "description": "Compact two-port USB-C charger.",
+      "price_usd": 32.00,
+      "shipping_usd": 5.00,
+      "options": {},
+      "emoji": "🔋",
+      "images": [],
+      "available": true
+    },
+    {
+      "id": "home-003",
+      "category": "electronics",
+      "name": "Digital kitchen scale",
+      "description": "Slim scale, grams and ounces.",
+      "price_usd": 19.00,
+      "shipping_usd": 5.00,
+      "options": {},
+      "emoji": "⚖️",
+      "images": [],
+      "available": true
+    },
+    {
+      "id": "well-001",
+      "category": "wellness",
+      "name": "First aid kit",
+      "description": "100-piece bandage and dressing kit.",
+      "price_usd": 22.00,
+      "shipping_usd": 5.00,
+      "options": {},
+      "emoji": "🩹",
+      "images": [],
+      "available": true
+    },
+    {
+      "id": "well-002",
+      "category": "wellness",
+      "name": "Digital thermometer",
+      "description": "Fast-read oral thermometer.",
+      "price_usd": 14.00,
+      "shipping_usd": 4.00,
+      "options": {},
+      "emoji": "🌡️",
+      "images": [],
+      "available": true
+    },
+    {
+      "id": "well-003",
+      "category": "wellness",
+      "name": "Elastic bandage pack",
+      "description": "Three reusable compression wraps.",
+      "price_usd": 13.00,
+      "shipping_usd": 4.00,
+      "options": {},
+      "emoji": "🧷",
+      "images": [],
+      "available": true
+    }
+  ]
+}
